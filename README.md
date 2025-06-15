@@ -6,15 +6,14 @@ Cómo leer un registro TCP/HTTP de Wireshark
 
 ## Log entry number and time
 
-  -------------------- --------------------------------------------------
-  **No.**              **Time**
++------+----------+
+| No.  | Time     |
++------+----------+
+| 47   | 3.144521 |
+| 48   | 3.195755 |
+| 49   | 3.246989 |
++------+----------+
 
-  47                   3.144521
-
-  48                   3.195755
-
-  49                   3.246989
-  -------------------- --------------------------------------------------
 
 Esta sección de registro TCP de Wireshark que se le proporciona comienza
 en el número de entrada de registro (n.º) 47, que es tres segundos y
