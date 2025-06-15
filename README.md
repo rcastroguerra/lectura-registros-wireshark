@@ -24,15 +24,12 @@ la herramienta rastrea el tiempo en milisegundos.
 
 ## Source and destination IP addresses
 
-  --------------------------------- -------------------------------------
-  **Source**                        **Destination**
+  | Source           | Destination     |
+  |------------------|-----------------|
+  | 198.51.100.23    | 192.0.2.1       |
+  | 192.0.2.1        | 198.51.100.23   |
+  | 198.51.100.23    | 192.0.2.1       |
 
-  [198.51.100.23]{.mark}            [192.0.2.1]{.mark}
-
-  [192.0.2.1]{.mark}                [198.51.100.23]{.mark}
-
-  [198.51.100.23]{.mark}            [192.0.2.1]{.mark}
-  --------------------------------- -------------------------------------
 
 Las columnas de origen y destino contienen la dirección IP de origen del
 equipo que envía un paquete y la dirección IP de destino prevista del
