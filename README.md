@@ -39,15 +39,12 @@ pertenece al servidor web de la empresa. El rango de direcciones IP en
 
 ## Protocol type and related information
 
-  -------------- -------------------------------------------------------------
-  **Protocol**   **Info**
+  | Protocol | Info                                   |
+  |----------|--------------------------------------|
+  | TCP      | 42584-\>443 \[SYN\] Seq=0 Win-5792 Len=120... |
+  | TCP      | 443-\>42584 \[SYN, ACK\] Seq=0 Win-5792 Len=120... |
+  | TCP      | 42584-\>443 \[ACK\] Seq=1 Win-5792 Len=120... |
 
-  TCP            42584-\>443 \[SYN\] Seq=0 Win-5792 Len=120\...
-
-  TCP            443-\>42584 \[SYN, ACK\] Seq=0 Win-5792 Len=120\...
-
-  TCP            42584-\>443 \[ACK\] Seq=1 Win-5792 Len=120\...
-  -------------- -------------------------------------------------------------
 
 La columna Protocolo indica que los paquetes se envían mediante el
 protocolo TCP, que se encuentra en la capa de transporte del modelo
